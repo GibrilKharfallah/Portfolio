@@ -1,0 +1,254 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Popins:wght@300;400;500;600;700;800;900&display=swap");*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+body{
+    background: linear-gradient(to right, #d2001a, #7462ff, #f48e21, #23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    padding: 0 2%;
+    margin: 0;
+    font-family: "Noto Sans JP" , sans-serif;   
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #d2001a, #7462ff);
+    animation: showRight 1s ease forwards;
+    animation-delay: .4s;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav .profile{
+    display: flex;
+    align-items: center;
+}
+
+nav .profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+nav .profile h1{
+    margin-left: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;   
+}
+
+nav .icon{
+    color: #000;
+}
+
+nav ul li{
+    margin-left: 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    cursor: pointer;
+    border-bottom: 1px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li:hover{
+    border-bottom-color: black;
+}
+
+.page-content{
+    margin: 4%;
+}
+
+.page-content header{
+    margin-top: 5%;
+    max-width: 80%;
+}
+
+.page-content header h1{
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Oswald", sans-serif;
+    font-size: 6vw;
+}
+
+.page-content header p{
+    line-height: 30px;
+    color: white;
+}
+
+.page-content header button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding-left: 0;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.page-content header button:hover{
+    color: #ccc;
+    border-bottom-color: black;
+}
+
+.page-content .presentation-img{
+    margin-top: 5%;
+}
+
+.page-content .presentation-img img{
+    max-width: 100%;
+    height: auto;
+    transition: filter 0.5s;
+}
+
+.page-content .presentation-img img:hover{
+    filter: brightness(50%);
+}
+
+.page-content .project-section{
+    margin-top: 6%;
+}
+
+.page-content .project-section h1{
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 3vw;
+}
+
+.page-content .project-section .projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-content .project-section .projects .project{
+    margin-right: 20px;
+    max-width: 195px;
+}
+
+.page-content .project-section .projects .project h4{
+    margin: 0;
+}
+
+.page-content .project-section .projects .project .description{
+    font-size: 10px;
+}
+
+.page-content .project-section .projects .project .dates{
+    font-size: 13px;
+    color: white;
+}
+
+footer{
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #000;
+    color: white;
+    padding: 10px;
+}
+
+footer .colonne ul li{
+    list-style: none;
+    width: 30px;
+    font-size: 20px;
+}
+
+footer .icon{
+    margin-bottom: 5%;
+    color: #fff;
+}
+
+footer .colonne p{
+    font-size: 15px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+footer .colonne p a{
+    text-decoration: none;
+    color: #ccc;
+}
+
+footer .colonne p a:hover{
+    color: white;
+}
+
+footer .colonne p:hover{
+    color: white;
+}
+
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+@keyframes showRight{
+    100%{
+        width: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        justify-content: center;
+    }
+    nav ul{
+        display: none;
+    }
+
+    .page-content header{
+        margin-top: 10%;
+        max-width: 100%;
+    }
+
+    .page-content .project-section{
+        margin-top: 15%;
+    }
+    .page-content .project-section h1{
+        font-size: 1.5em;
+    }
+    .page-content .project-section .projects .project{
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    footer{
+        justify-content: flex-start;
+    }
+
+    footer .colonne{
+        justify-content: center;
+        width: 80%;
+    }
+}
