@@ -78,7 +78,7 @@ const services = [
         icon: backend,
     },
     {
-        title: "Artificial Intellignece Solutions",
+        title: "Artificial Intelligence Solutions",
         icon: creator,
     },
 ];

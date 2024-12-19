@@ -1,7 +1,8 @@
 {
-  "name": "3dportfolio",
+  "name": "portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://gibrilkharfallah.github.io/Portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,6 +12,8 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@react-three/drei": "^9.115.0",
     "@react-three/fiber": "^8.17.10",
     "framer-motion": "^11.11.13",
