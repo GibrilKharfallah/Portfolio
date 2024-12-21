@@ -35,7 +35,7 @@ import {
     //typescript,
     html,
     css,
-    //reactjs,
+    reactjs,
     //redux,
     //tailwind,
     //nodejs,
@@ -97,6 +97,10 @@ const technologies = [
         icon: javascript,
     },
     {
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
         name: "C",
         icon: c,
     },
@@ -112,7 +116,7 @@ const technologies = [
         name: "Python",
         icon: python,
     },
-    {
+    /*{
         name: "Scipy",
         icon: scipy,
     },
@@ -128,14 +132,14 @@ const technologies = [
         name: "Matplotlib",
         icon: matplotlib,
     },
-    /*{
+    {
         name: "Plotly",
         icon: plotly,
-    },*/
+    },
     {
         name: "Seaborn",
         icon: seaborn,
-    },
+    },*/
     {
         name: "Scikit-learn",
         icon: sklearn,
