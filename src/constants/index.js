@@ -1,6 +1,7 @@
 import {
     mobile,
     cevital,
+    auditsEnergies,
     colombes,
     epitech,
     MiraUni,
@@ -27,6 +28,7 @@ import {
     ml2,
     dataWarehouse,
     catDog,
+    nsa,
     backend,
     creator,
     web,
@@ -219,32 +221,46 @@ const experiences = [
             "Artificial Intelligence Minor",
             ],
     },
+    {
+        title: "Internship",
+        company_name: "Audits Energies",
+        icon: auditsEnergies,
+        iconBg: "#383E56",
+        date: "Feb 2025 - Jul 2025",
+        points: [
+            "Development and optimization of the company's web platforms to improve online visibility and automate internal processes",
+            "Creation and redesign of the company's showcase website",
+            "Development of an internal training platform",
+            "Implementation of tools to automate and streamline data management",
+            "API integration and database optimization to improve digital workflows",
+        ],
+    },
 ];
 
 const projects = [
     {
-        name: "Machine Learning Project",
+        name: "Data Analysis & ML Project",
         description:
             "Sales prediction for an electronic equipment sales chain",
         tags: [
             {
-                name: "python",
+                name: "Python",
                 color: "blue-text-gradient",
             },
             {
-                name: "pandas",
+                name: "Pandas",
                 color: "green-text-gradient",
             },
             {
-                name: "seaborn",
+                name: "Seaborn",
                 color: "pink-text-gradient",
             },
             {
-                name: "scikit-learn",
+                name: "Scikit-Learn",
                 color: "orange-text-gradient",
             },
             {
-                name: "tkinter",
+                name: "Tkinter",
                 color: "pink-text-gradient",
             },
         ],
@@ -257,27 +273,27 @@ const projects = [
             "Energy consumption prediction for smart building",
         tags: [
             {
-                name: "python",
+                name: "Python",
                 color: "blue-text-gradient",
             },
             {
-                name: "pandas",
+                name: "Pandas",
                 color: "green-text-gradient",
             },
             {
-                name: "numpy",
+                name: "Numpy",
                 color: "blue-text-gradient",
             },
             {
-                name: "seaborn",
+                name: "Seaborn",
                 color: "pink-text-gradient",
             },
             {
-                name: "scikit-learn",
+                name: "Scikit-Learn",
                 color: "orange-text-gradient",
             },
             {
-                name: "xgboost",
+                name: "XGBoost",
                 color: "green-text-gradient",
             },
         ],
@@ -307,23 +323,23 @@ const projects = [
             "Creation of a perceptron for image classification",
         tags: [
             {
-                name: "python",
+                name: "Python",
                 color: "blue-text-gradient",
             },
             {
-                name: "scikit-learn",
+                name: "Scikit-Learn",
                 color: "green-text-gradient",
             },
             {
-                name: "numpy",
+                name: "Numpy",
                 color: "blue-text-gradient",
             },
             {
-                name: "plotly",
+                name: "Plotly",
                 color: "pink-text-gradient",
             },
             {
-                name: "matplotlib",
+                name: "Matplotlib",
                 color: "orange-text-gradient",
             },
         ],
@@ -336,28 +352,65 @@ const projects = [
             "Development of a job board platform to connect job seekers with employers, for enhanced job matching and user engagement.",
         tags: [
             {
-                name: "reactjs",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "nodejs",
+                name: "Node.Js",
                 color: "green-text-gradient",
             },
             {
-                name: "sql",
+                name: "MySQL",
                 color: "blue-text-gradient",
             },
             {
-                name: "sequelize",
+                name: "Sequelize",
                 color: "orange-text-gradient",
             },
             {
-                name: "expressjs",
+                name: "Express",
                 color: "pink-text-gradient",
             },
         ],
         image: jobBoard,
         source_code_link: "https://github.com/GibrilKharfallah/Job-Board",
+    },
+    {
+        name: "Network Administration Project",
+        description:
+            "Design and deployement of a virtualized network infrastructure using multiple virtual machines.",
+        tags: [
+            {
+                name: "VirtualBox",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "OpenBSD",
+                color: "green-text-gradient",
+            },
+            {
+                name: "FreeBSD",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Debian",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "Nginx",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "PHP",
+                color: "green-text-gradient",
+            },
+            {
+                name: "MySQL",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: nsa,
+        source_code_link: "https://github.com/GibrilKharfallah/Virtual-Network-Administration",
     },
 ];
 

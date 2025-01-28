@@ -51,6 +51,7 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import auditsEnergies from "./company/auditsEnergies.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -59,10 +60,12 @@ import ml1 from "./ml1.png";
 import ml2 from "./ml2.png";
 import dataWarehouse from "./dataWarehouse.png";
 import catDog from "./catDog.png";
+import nsa from "./nsa.png";
 
 export {
   cevital,
   colombes,
+  auditsEnergies,
   epitech,
   MiraUni,
   matlab,
@@ -89,6 +92,7 @@ export {
   ml2,
   dataWarehouse,
   catDog,
+  nsa,
   logo,
   backend,
   creator,
