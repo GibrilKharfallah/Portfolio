@@ -29,6 +29,8 @@ import {
     dataWarehouse,
     catDog,
     nsa,
+    rushHour,
+    chatChatChat,
     backend,
     creator,
     web,
@@ -68,7 +70,7 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Application and Backend Development",
+        title: "Web Application and Fullstack Development",
         icon: web,
     },
     {
@@ -228,7 +230,7 @@ const experiences = [
         iconBg: "#383E56",
         date: "Feb 2025 - Jul 2025",
         points: [
-            "Development and optimization of the company's web platforms to improve online visibility and automate internal processes",
+            "Development and optimization of the company's web platforms",
             "Creation and redesign of the company's showcase website",
             "Development of an internal training platform",
             "Implementation of tools to automate and streamline data management",
@@ -347,7 +349,7 @@ const projects = [
         source_code_link: "https://github.com/GibrilKharfallah/Creation-of-a-perceptron-for-image-classification",
     },
     {
-        name: "Web Development Project",
+        name: "Job Board",
         description:
             "Development of a job board platform to connect job seekers with employers, for enhanced job matching and user engagement.",
         tags: [
@@ -356,7 +358,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "Node.Js",
+                name: "Node.js",
                 color: "green-text-gradient",
             },
             {
@@ -368,7 +370,7 @@ const projects = [
                 color: "orange-text-gradient",
             },
             {
-                name: "Express",
+                name: "Express.js",
                 color: "pink-text-gradient",
             },
         ],
@@ -376,9 +378,26 @@ const projects = [
         source_code_link: "https://github.com/GibrilKharfallah/Job-Board",
     },
     {
-        name: "Network Administration Project",
+        name: "Rush Hour",
         description:
-            "Design and deployement of a virtualized network infrastructure using multiple virtual machines.",
+            "Development of a 2D car racing game where players navigate obstacles and progress through levels for an engaging arcade experience.",
+        tags: [
+            {
+                name: "Java",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "JavaFX",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: rushHour,
+        source_code_link: "https://github.com/GibrilKharfallah/Rush-Hour",
+    },
+    {
+        name: "You shall not pass",
+        description:
+            "Design, securing and deployement of a virtualized network infrastructure using multiple virtual machines.",
         tags: [
             {
                 name: "VirtualBox",
@@ -411,6 +430,35 @@ const projects = [
         ],
         image: nsa,
         source_code_link: "https://github.com/GibrilKharfallah/Virtual-Network-Administration",
+    },
+    {
+        name: "ChatChatChat",
+        description:
+            "Development of a seamless real-time chat experience where users can connect, share and engage in dynamic convesations across different channels.",
+        tags: [
+            {
+                name: "React",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Node.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Express.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "MongoDbB",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "Socket.io",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: chatChatChat,
+        source_code_link: "https://github.com/GibrilKharfallah/ChatChatChat",
     },
 ];
 

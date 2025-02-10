@@ -61,6 +61,8 @@ import ml2 from "./ml2.png";
 import dataWarehouse from "./dataWarehouse.png";
 import catDog from "./catDog.png";
 import nsa from "./nsa.png";
+import rushHour from "./rushHour.png";
+import chatChatChat from "./chatChatChat.png";
 
 export {
   cevital,
@@ -93,6 +95,8 @@ export {
   dataWarehouse,
   catDog,
   nsa,
+  rushHour,
+  chatChatChat,
   logo,
   backend,
   creator,
