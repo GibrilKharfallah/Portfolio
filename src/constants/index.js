@@ -31,6 +31,7 @@ import {
     nsa,
     rushHour,
     chatChatChat,
+    popeye,
     backend,
     creator,
     web,
@@ -449,7 +450,7 @@ const projects = [
                 color: "blue-text-gradient",
             },
             {
-                name: "MongoDbB",
+                name: "MongoDB",
                 color: "orange-text-gradient",
             },
             {
@@ -459,6 +460,35 @@ const projects = [
         ],
         image: chatChatChat,
         source_code_link: "https://github.com/GibrilKharfallah/ChatChatChat",
+    },
+    {
+        name: "Popeye",
+        description:
+            "Design of a containerized voting web app, running on a microservices architecture with Docker and Docker Compose",
+        tags: [
+            {
+                name: "Docker",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Node.js",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "PostgreSQL",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "Java",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: popeye,
+        source_code_link: "https://github.com/GibrilKharfallah/Popeye",
     },
 ];
 

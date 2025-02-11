@@ -63,6 +63,7 @@ import catDog from "./catDog.png";
 import nsa from "./nsa.png";
 import rushHour from "./rushHour.png";
 import chatChatChat from "./chatChatChat.png";
+import popeye from "./popeye.png";
 
 export {
   cevital,
@@ -97,6 +98,7 @@ export {
   nsa,
   rushHour,
   chatChatChat,
+  popeye,
   logo,
   backend,
   creator,
