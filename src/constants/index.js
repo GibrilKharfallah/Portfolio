@@ -5,6 +5,7 @@ import {
     colombes,
     epitech,
     MiraUni,
+    efrei,
     matlab,
     sql,
     python,
@@ -214,14 +215,13 @@ const experiences = [
             ],
     },
     {
-        title: "Proffessional Master Of Science",
+        title: "Pre - Master Of Science",
         company_name: "Epitech",
         icon: epitech,
         iconBg: "#E6DEDD",
-        date: "2024 - 2027",
+        date: "2024 - 2025",
         points: [
-            "Big Data Major",
-            "Artificial Intelligence Minor",
+            "Preparatory year for a Master of Science",
             ],
     },
     {
@@ -237,6 +237,16 @@ const experiences = [
             "Implementation of tools to automate and streamline data management",
             "API integration and database optimization to improve digital workflows",
         ],
+    },
+    {
+        title: "Engineering Degree",
+        company_name: "Efrei",
+        icon: efrei,
+        iconBg: "#E6DEDD",
+        date: "2025 - 2027",
+        points: [
+            "Big Data & Machine Learning Major",
+            ],
     },
 ];
 

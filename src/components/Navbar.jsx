@@ -32,7 +32,7 @@ const Navbar = () => {
             font-bold cursor-pointer flex"
           >
             Gibril &nbsp; 
-            <span className="sm:block hidden">| Epitech Student</span>
+            <span className="sm:block hidden">| Efrei Student</span>
           </p>
         </Link>
 

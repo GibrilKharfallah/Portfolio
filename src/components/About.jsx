@@ -47,10 +47,11 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px]
       max-w-3xl leading-[30px]">
-        I am a passionate aspiring Data Scientist with a strong foundation in data collection, processing, and analysis. 
-        Currently pursuing a Pre-MSc at Epitech Paris to enhance my technical IT skills, I hold a Master’s 1 degree in Data Science and Decision Support from Abderrahmane Mira University. <br /> 
-        <br /> I am eager to leverage data for actionable insights and process optimization. 
-        Actively seeking internships or projects, I am dedicated to tackling challenges and contributing to innovative initiatives.
+        I am a passionate aspiring Data Scientist with a strong foundation in data collection, processing, and analysis. <br /> 
+        <br /> Soon to be pursuing an Engineering degree at Efrei Paris to enhance my technical skills in Big Data and AI, 
+        I am eager to leverage data for actionable insights and process optimization. <br />
+        <br />
+        Actively seeking apprenticeships or projects, I am dedicated to tackling challenges and contributing to innovative initiatives.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

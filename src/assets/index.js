@@ -52,6 +52,7 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import auditsEnergies from "./company/auditsEnergies.png";
+import efrei from "./company/efrei.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -70,6 +71,7 @@ export {
   colombes,
   auditsEnergies,
   epitech,
+  efrei,
   MiraUni,
   matlab,
   sql,
