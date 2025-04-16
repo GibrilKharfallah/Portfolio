@@ -21,27 +21,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-import matlab from "./tech/matlab.png";
 import sql from "./tech/sql.png";
 import python from "./tech/python.png";
-import scipy from "./tech/scipy.png";
-import numpy from "./tech/numpy.png";
-import pandas from "./tech/pandas.png";
-import matplotlib from "./tech/matplotlib.png";
-import plotly from "./tech/plotly.png";
-import seaborn from "./tech/seaborn.png";
 import sklearn from "./tech/sklearn.png";
-import php from "./tech/php.png";
 import r from "./tech/r.png";
 import c from "./tech/c.png";
 import java from "./tech/java.png";
-/*import hadoop from "./tech/hadoop.png";
-import spark from "./tech/spark.png";
-import keras from "./tech/keras.png";
-import tensorflow from "./tech/tensorflow.png";
-import pytorch from "./tech/pytorch.png";*/
-
-
 
 import cevital from "./company/cevital.jfif";
 import colombes from "./company/colombes.jpg";
@@ -73,25 +58,12 @@ export {
   epitech,
   efrei,
   MiraUni,
-  matlab,
   sql,
   python,
-  scipy,
-  numpy,
-  pandas,
-  matplotlib,
-  plotly,
-  seaborn,
   sklearn,
-  php,
   c,
   r,
   jobBoard,
-  //hadoop,
-  //spark,
-  //keras,
-  //tensorflow,
-  //pytorch,
   java,
   ml1,
   ml2,

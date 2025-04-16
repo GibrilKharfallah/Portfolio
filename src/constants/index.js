@@ -6,25 +6,12 @@ import {
     epitech,
     MiraUni,
     efrei,
-    matlab,
     sql,
     python,
-    scipy,
-    numpy,
-    pandas,
-    matplotlib,
-    plotly,
-    seaborn,
     sklearn,
-    php,
     r,
     c,
     java,
-    //hadoop,
-    //spark,
-    //tensorflow,
-    //pytorch,
-    //keras,
     ml1,
     ml2,
     dataWarehouse,
@@ -45,7 +32,7 @@ import {
     //redux,
     //tailwind,
     //nodejs,
-    //mongodb,
+    mongodb,
     git,
     //figma,
     //docker,
@@ -111,8 +98,8 @@ const technologies = [
         icon: c,
     },
     {
-        name: "Matlab",
-        icon: matlab,
+        name: "MongoDB",
+        icon: mongodb,
     },
     {
         name: "SQL",
@@ -122,37 +109,9 @@ const technologies = [
         name: "Python",
         icon: python,
     },
-    /*{
-        name: "Scipy",
-        icon: scipy,
-    },
-    {
-        name: "Numpy",
-        icon: numpy,
-    },
-    {
-        name: "Pandas",
-        icon: pandas,
-    },
-    {
-        name: "Matplotlib",
-        icon: matplotlib,
-    },
-    {
-        name: "Plotly",
-        icon: plotly,
-    },
-    {
-        name: "Seaborn",
-        icon: seaborn,
-    },*/
     {
         name: "Scikit-learn",
         icon: sklearn,
-    },
-    {
-        name: "PHP",
-        icon: php,
     },
     {
         name: "R",
@@ -235,7 +194,7 @@ const experiences = [
             "Creation and redesign of the company's showcase website",
             "Development of an internal training platform",
             "Implementation of tools to automate and streamline data management",
-            "API integration and database optimization to improve digital workflows",
+            "Scraping, cleaning, and enriching commercial data",
         ],
     },
     {
