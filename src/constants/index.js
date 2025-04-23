@@ -35,7 +35,7 @@ import {
     mongodb,
     git,
     //figma,
-    //docker,
+    docker,
     //carrent,
     //jobit,
     //tripguide,
@@ -120,6 +120,10 @@ const technologies = [
     {
         name: "Java",
         icon: java,
+    },    
+    {
+        name: "Docker",
+        icon: docker,
     },
     {
         name: "git",
@@ -160,7 +164,6 @@ const experiences = [
             "Management of a product database (Oil)",
             "Modeling a forecasting and decision support system",
             "Communication and promotion work with department managers",
-            "Writing the internship report",
         ],
     },
     {
@@ -273,9 +276,9 @@ const projects = [
         source_code_link: "https://github.com/GibrilKharfallah/Energy-consumption-prediction-by-using-machine-learning-for-smart-building",
     },
     {
-        name: "Big Data Project",
+        name: "Data Engineering Project",
         description:
-            "Design of a Data Warehouse for an e-commerce platform",
+            "Data Warehouse design and modeling for an e-commerce platform",
         tags: [
             {
                 name: "SQL Server Management Studio",
@@ -321,7 +324,7 @@ const projects = [
     {
         name: "Job Board",
         description:
-            "Development of a job board platform to connect job seekers with employers, for enhanced job matching and user engagement.",
+            "Development of a job board platform for enhanced job matching and user engagement.",
         tags: [
             {
                 name: "React",
@@ -350,7 +353,7 @@ const projects = [
     {
         name: "Rush Hour",
         description:
-            "Development of a 2D car racing game where players navigate obstacles and progress through levels for an engaging arcade experience.",
+            "Development of a 2D car racing game for an engaging arcade experience.",
         tags: [
             {
                 name: "Java",
