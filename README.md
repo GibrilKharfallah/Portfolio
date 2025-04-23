@@ -18,4 +18,4 @@ This project leverages the following technologies:
 - **React.js:** For building a dynamic and modern user interface.
 - **Three.js:** For creating immersive 3D animations and elements.
 - **JavaScript:** For application logic.
-- **CSS3 / Styled Components:** For a sleek and responsive design.
+- **Tailwind CSS:** For a sleek and responsive design.

@@ -54,7 +54,6 @@ const Navbar = () => {
             </li>
           ))}
           {/* Social Media Icons */}
-          <div className="hidden sm:flex items-center gap-4 ml-4">
             <a
               href="https://www.linkedin.com/in/gibril-kharfallah-6b5664255/"
               target="_blank"
@@ -71,9 +70,7 @@ const Navbar = () => {
             >
               <FontAwesomeIcon icon={faGithub} />
             </a>
-          </div>
         </ul>
-
 
         {/* Mobile Menu */}
         <div
@@ -109,23 +106,22 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
-              {/* Add social links in the mobile menu */}
               <li>
                 <a
-                  href="https://linkedin.com/in/your-linkedin-profile"
+                  href="https://www.linkedin.com/in/gibril-kharfallah-6b5664255/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white hover:text-gray-400 text-[16px]"
+                  className="text-white hover:text-secondary font-poppins font-medium text-[16px]"
                 >
                   LinkedIn
                 </a>
               </li>
               <li>
                 <a
-                  href="https://github.com/your-github-profile"
+                  href="https://github.com/GibrilKharfallah"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-white hover:text-gray-400 text-[16px]"
+                  className="text-white hover:text-secondary font-poppins font-medium text-[16px]"
                 >
                   GitHub
                 </a>
