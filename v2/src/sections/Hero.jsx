@@ -15,44 +15,6 @@ import { calculateSizes } from '../constants/index.js';
 import { HackerRoom } from '../components/HackerRoom.jsx';
 
 const Hero = () => {
-    const controls = useControls('HackerRoom',
-        {
-            positionX: {
-                value: 2.5,
-                min: -10,
-                max: 10
-            },
-            positionY: {
-                value: 2.5,
-                min: -10,
-                max: 10
-            },
-            positionZ: {
-                value: 2.5,
-                min: -10,
-                max: 10
-            },
-            rotationX: {
-                value: 0,
-                min: -10,
-                max: 10
-            },
-            rotationY: {
-                value: 0,
-                min: -10,
-                max: 10
-            },
-            rotationZ: {
-                value: 0,
-                min: -10,
-                max: 10
-            },
-            scale: {
-                value: 1,
-                min: 0.1,
-                max: 10
-            },
-        })
 
     // Use media queries to determine screen size
     const isSmall = useMediaQuery({ maxWidth: 440 });
