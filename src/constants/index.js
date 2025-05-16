@@ -240,7 +240,7 @@ const projects = [
             },
         ],
         image: ml1,
-        source_code_link: "https://github.com/GibrilKharfallah/Sales-prediction-for-an-electronic-equipment-sales-chain",
+        source_code_link: "https://github.com/GibrilKharfallah/ModelQuest",
     },
     {
         name: "Machine Learning Project",
@@ -273,7 +273,7 @@ const projects = [
             },
         ],
         image: ml2,
-        source_code_link: "https://github.com/GibrilKharfallah/Energy-consumption-prediction-by-using-machine-learning-for-smart-building",
+        source_code_link: "https://github.com/GibrilKharfallah/EnerGenius",
     },
     {
         name: "Data Engineering Project",
@@ -290,7 +290,7 @@ const projects = [
             },
         ],
         image: dataWarehouse,
-        source_code_link: "https://github.com/GibrilKharfallah/Design-of-a-Data-Warehouse-for-an-e-commerce-platform",
+        source_code_link: "https://github.com/GibrilKharfallah/Design-of-a-DataZon",
     },
     {
         name: "Deep Learning Project",
@@ -319,7 +319,7 @@ const projects = [
             },
         ],
         image: catDog,
-        source_code_link: "https://github.com/GibrilKharfallah/Creation-of-a-perceptron-for-image-classification",
+        source_code_link: "https://github.com/GibrilKharfallah/NeuroMark",
     },
     {
         name: "Job Board",

@@ -21,7 +21,7 @@ export const navLinks = [
     },
 ];
 
-export const clientReviews = [
+/*export const clientReviews = [
     {
         id: 1,
         name: 'Emily Johnson',
@@ -54,7 +54,7 @@ export const clientReviews = [
         review:
             'Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
     },
-];
+];*/
 
 export const myProjects = [
     {
