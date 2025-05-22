@@ -160,7 +160,6 @@ const experiences = [
         date: "Oct 2022 - Dec 2022",
         points: [
             "Development of a regional post-COVID sales forecasting system",
-            "Introduction to professional life and business dynamics",
             "Management of a product database (Oil)",
             "Modeling a forecasting and decision support system",
             "Communication and promotion work with department managers",
@@ -193,7 +192,6 @@ const experiences = [
         iconBg: "#383E56",
         date: "Feb 2025 - Jul 2025",
         points: [
-            "Development and optimization of the company's web platforms",
             "Creation and redesign of the company's showcase website",
             "Development of an internal training platform",
             "Implementation of tools to automate and streamline data management",
@@ -214,9 +212,9 @@ const experiences = [
 
 const projects = [
     {
-        name: "Data Analysis & ML Project",
+        name: "ModelQuest",
         description:
-            "Sales prediction for an electronic equipment sales chain",
+            "Sales analysis and prediction for an electronic equipment sales chain",
         tags: [
             {
                 name: "Python",
@@ -243,7 +241,7 @@ const projects = [
         source_code_link: "https://github.com/GibrilKharfallah/ModelQuest",
     },
     {
-        name: "Machine Learning Project",
+        name: "EnerGenius",
         description:
             "Energy consumption prediction for smart building",
         tags: [
@@ -276,7 +274,7 @@ const projects = [
         source_code_link: "https://github.com/GibrilKharfallah/EnerGenius",
     },
     {
-        name: "Data Engineering Project",
+        name: "DataZon",
         description:
             "Data Warehouse design and modeling for an e-commerce platform",
         tags: [
@@ -290,10 +288,10 @@ const projects = [
             },
         ],
         image: dataWarehouse,
-        source_code_link: "https://github.com/GibrilKharfallah/Design-of-a-DataZon",
+        source_code_link: "https://github.com/GibrilKharfallah/DataZon",
     },
     {
-        name: "Deep Learning Project",
+        name: "NeuroMark",
         description:
             "Creation of a perceptron for image classification",
         tags: [
@@ -322,7 +320,7 @@ const projects = [
         source_code_link: "https://github.com/GibrilKharfallah/NeuroMark",
     },
     {
-        name: "Job Board",
+        name: "nJob",
         description:
             "Development of a job board platform for enhanced job matching and user engagement.",
         tags: [
