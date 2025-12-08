@@ -3985,7 +3985,7 @@ No matching component was found for:
         items-center mt-5`,children:[K.jsx("div",{className:"w-5 h-5 rounded-full bg-[#915EFF]"}),K.jsx("div",{className:`w-1 sm:h-80 h-40
           violet-gradient`})]}),K.jsxs("div",{children:[K.jsxs("h1",{className:`${ur.heroHeadText}
           text-white`,children:["Hi, I'm ",K.jsx("span",{className:"text-[#915eff]",children:"Gibril"})]}),K.jsx("p",{className:`${ur.heroSubText} mt-2
-          text-white-100`,children:"Currently in a Pre-MSc at Epitech, I will join Efrei for an Engineering degree starting next September."})]})]}),K.jsx(Wj,{}),K.jsx("div",{className:`absolute xs:bottom-3
+          text-white-100`,children:"Currently pursuing an Engineering degree at EFREI Paris, Designing Data Science and AI solutions to address real-world challenges."})]})]}),K.jsx(Wj,{}),K.jsx("div",{className:`absolute xs:bottom-3
       bottom-32 w-full flex justify-center
       items-center`,children:K.jsx("a",{href:"#about",children:K.jsx("div",{className:`w-[35px] h-[64px]
           rounded-3xl border-4 border-secondary
@@ -4568,7 +4568,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
           py-5 px-12 min-h-[280px] flex
           justify-evenly items-center flex-col`,children:[K.jsx("img",{src:t,alt:e,className:"w-16 h-16 object-contain"}),K.jsx("h3",{className:`text-white text-[20px]
             font-bold text-center`,children:e})]})})}),b$=()=>K.jsxs(K.Fragment,{children:[K.jsxs(os.div,{variants:$E(),children:[K.jsx("p",{className:ur.sectionSubText,children:"Introduction"}),K.jsx("h2",{className:ur.sectionHeadText,children:"Overview."})]}),K.jsxs(os.p,{variants:ty("","",.1,1),className:`mt-4 text-secondary text-[17px]
-      max-w-3xl leading-[30px]`,children:["I am a passionate aspiring Data Scientist with a strong foundation in data collection, processing, and analysis. ",K.jsx("br",{}),K.jsx("br",{})," Soon to be pursuing an Engineering degree at Efrei Paris to enhance my technical skills in Big Data and AI, I am eager to leverage data for actionable insights and process optimization. ",K.jsx("br",{}),K.jsx("br",{}),"Actively seeking apprenticeships or projects, I am dedicated to tackling challenges and contributing to innovative initiatives."]}),K.jsx("div",{className:"mt-20 flex flex-wrap gap-10",children:eZ.map((n,e)=>K.jsx(T$,{index:e,...n},n.title))})]}),R$=Ud(b$,"about"),P$=()=>K.jsx("div",{className:`flex flex-row flex-wrap
+      max-w-3xl leading-[30px]`,children:["I am a passionate aspiring Data Scientist with a strong foundation in data collection, processing, and analysis. ",K.jsx("br",{}),K.jsx("br",{})," Currently pursuing an Engineering degree at Efrei Paris to enhance my technical skills in Big Data and AI, I am eager to leverage data for actionable insights and process optimization. ",K.jsx("br",{}),K.jsx("br",{}),"Actively seeking apprenticeship opportunities in the field, I am dedicated to tackling challenges and contributing to innovative projects."]}),K.jsx("div",{className:"mt-20 flex flex-wrap gap-10",children:eZ.map((n,e)=>K.jsx(T$,{index:e,...n},n.title))})]}),R$=Ud(b$,"about"),P$=()=>K.jsx("div",{className:`flex flex-row flex-wrap
     justify-center gap-10`,children:tZ.map(n=>K.jsx("div",{className:"w-28 h-28",children:K.jsx(Gj,{icon:n.icon})},n.name))}),I$=Ud(P$,"");var ny={},fO={exports:{}};/*!
 	Copyright (c) 2018 Jed Watson.
 	Licensed under the MIT License (MIT), see
