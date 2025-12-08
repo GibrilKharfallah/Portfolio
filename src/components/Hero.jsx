@@ -25,8 +25,8 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2
           text-white-100`}>
-            Currently in a Pre-MSc at Epitech, 
-            I will join Efrei for an Engineering degree starting next September.
+            Currently pursuing an Engineering degree at EFREI Paris, 
+            Designing Data Science and AI solutions to address real-world challenges.
           </p>
         </div>
       </div>

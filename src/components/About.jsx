@@ -48,10 +48,10 @@ const About = () => {
       className="mt-4 text-secondary text-[17px]
       max-w-3xl leading-[30px]">
         I am a passionate aspiring Data Scientist with a strong foundation in data collection, processing, and analysis. <br /> 
-        <br /> Soon to be pursuing an Engineering degree at Efrei Paris to enhance my technical skills in Big Data and AI, 
+        <br /> Currently pursuing an Engineering degree at Efrei Paris to enhance my technical skills in Big Data and AI, 
         I am eager to leverage data for actionable insights and process optimization. <br />
         <br />
-        Actively seeking apprenticeships or projects, I am dedicated to tackling challenges and contributing to innovative initiatives.
+        Actively seeking apprenticeship opportunities in the field, I am dedicated to tackling challenges and contributing to innovative projects.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
