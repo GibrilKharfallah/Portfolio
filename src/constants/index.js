@@ -6,6 +6,7 @@ import {
     epitech,
     MiraUni,
     efrei,
+    cleed,
     sql,
     python,
     sklearn,
@@ -186,16 +187,16 @@ const experiences = [
             ],
     },
     {
-        title: "Internship",
+        title: "Fullstack Development Internship",
         company_name: "Audits Energies",
         icon: auditsEnergies,
         iconBg: "#383E56",
         date: "Feb 2025 - Jul 2025",
         points: [
-            "Creation and redesign of the company's showcase website",
-            "Development of an internal training platform",
-            "Implementation of tools to automate and streamline data management",
-            "Scraping, cleaning, and enriching commercial data",
+            "Redesign of the company's showcase site and an internal training platform",
+            "Implementation of data flow integration and automation tools",
+            "Scraping, cleaning and enrichment of commercial data",
+            "Development of an educational RAG agent to answer questions from internal training students",
         ],
     },
     {
@@ -207,6 +208,21 @@ const experiences = [
         points: [
             "Big Data & Machine Learning Major",
             ],
+    },
+    {
+        title: "Data Scientist (Machine Learning & GenAI) Apprenticeship",
+        company_name: "CLEED",
+        icon: cleed,
+        iconBg: "#E6DEDD",
+        date: "Sep 2025 - Until Now",
+        points: [
+            "Training and optimization of AI models on client data (LLMs, RAG, Voicebot)",
+            "Improvement of workflow efficiency and scalability of cloud tools (Azure, OpenAI)",
+            "Optimization of conversational AI (RAG, reranking, cost reduction, response time improvements)",
+            "Development of automated actions",
+            "Data cleaning and preparation, recommendation engine development (collaborative filtering / content-based)",
+            "RAG integration within the ML pipeline",
+        ],
     },
 ];
 

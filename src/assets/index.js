@@ -38,6 +38,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import auditsEnergies from "./company/auditsEnergies.png";
 import efrei from "./company/efrei.jpg";
+import cleed from "./company/cleed_logo.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -57,6 +58,7 @@ export {
   auditsEnergies,
   epitech,
   efrei,
+  cleed,
   MiraUni,
   sql,
   python,
