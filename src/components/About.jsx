@@ -51,7 +51,7 @@ const About = () => {
         <br /> Currently pursuing an Engineering degree at Efrei Paris to enhance my technical skills in Big Data and AI, 
         I am eager to leverage data for actionable insights and process optimization. <br />
         <br />
-        Actively seeking apprenticeship opportunities in the field, I am dedicated to tackling challenges and contributing to innovative projects.
+        Actively seeking apprenticeship opportunities in Data Science/Engineering, I am dedicated to tackling challenges and contributing to innovative projects.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

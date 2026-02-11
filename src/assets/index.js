@@ -6,51 +6,47 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import jobBoard from "./jobBoard.png";
 
-import css from "./tech/css.png";
+import jobBoard from "./projects/jobBoard.png";
+import sneakVault from "./projects/sneakVault.png";
+import wineML from "./projects/wineML.png";
+import powerFlow from "./projects/powerFlow.png";
+import goalytics from "./projects/goalytics.png";
+import movieLens from "./projects/movieLens.png";
+import ml1 from "./projects/ml1.png";
+import ml2 from "./projects/ml2.png";
+import dataWarehouse from "./projects/dataWarehouse.png";
+import catDog from "./projects/catDog.png";
+import nsa from "./projects/nsa.png";
+import rushHour from "./projects/rushHour.png";
+import chatChatChat from "./projects/chatChatChat.png";
+import popeye from "./projects/popeye.png";
+
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 import sql from "./tech/sql.png";
 import python from "./tech/python.png";
 import sklearn from "./tech/sklearn.png";
 import r from "./tech/r.png";
 import c from "./tech/c.png";
 import java from "./tech/java.png";
+import hadoop from "./tech/hadoop.png";
+import spark from "./tech/spark.png";
+import scala from "./tech/scala.png";
+
+import efrei from "./education/efrei.jpg";
+import colombes from "./education/colombes.jpg";
+import epitech from "./education/epitech.png";
+import MiraUni from "./education/MiraUni.png";
 
 import cevital from "./company/cevital.jfif";
-import colombes from "./company/colombes.jpg";
-import epitech from "./company/epitech.png";
-import MiraUni from "./company/MiraUni.png";
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
 import auditsEnergies from "./company/auditsEnergies.png";
-import efrei from "./company/efrei.jpg";
-import cleed from "./company/cleed_logo.jpg";
+import cleed from "./company/cleed.jpg";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import ml1 from "./ml1.png";
-import ml2 from "./ml2.png";
-import dataWarehouse from "./dataWarehouse.png";
-import catDog from "./catDog.png";
-import nsa from "./nsa.png";
-import rushHour from "./rushHour.png";
-import chatChatChat from "./chatChatChat.png";
-import popeye from "./popeye.png";
 
 export {
   cevital,
@@ -66,6 +62,14 @@ export {
   c,
   r,
   jobBoard,
+  sneakVault,
+  wineML,
+  powerFlow,
+  goalytics,
+  movieLens,
+  hadoop,
+  spark,
+  scala,
   java,
   ml1,
   ml2,
@@ -83,24 +87,10 @@ export {
   github,
   menu,
   close,
-  css,
   docker,
-  figma,
   git,
-  html,
   javascript,
   mongodb,
   nodejs,
-  reactjs,
-  redux,
-  tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
 };

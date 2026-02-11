@@ -16,6 +16,14 @@ import {
     ml1,
     ml2,
     dataWarehouse,
+    sneakVault,
+    powerFlow,
+    wineML,
+    goalytics,
+    movieLens,
+    hadoop,
+    spark,
+    scala,
     catDog,
     nsa,
     rushHour,
@@ -26,21 +34,10 @@ import {
     web,
     javascript,
     jobBoard,
-    //typescript,
-    html,
-    css,
-    reactjs,
-    //redux,
-    //tailwind,
-    //nodejs,
+    nodejs,
     mongodb,
     git,
-    //figma,
     docker,
-    //carrent,
-    //jobit,
-    //tripguide,
-    //threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -60,39 +57,43 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Application and Fullstack Development",
+        title: "Data Engineering and Management",
         icon: web,
     },
     {
-        title: "Data Analysis and Predictive Modeling",
+        title: "Artificial Intelligence Solutions",
         icon: mobile,
     },
     {
-        title: "Data Warehouse Design and Management",
+        title: "Data Analysis and Dashboard Design",
         icon: backend,
     },
     {
-        title: "Artificial Intelligence Solutions",
+        title: "Web Application and Fullstack Development",
         icon: creator,
     },
 ];
 
 const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
+        name: "Python",
+        icon: python,
     },
     {
-        name: "CSS 3",
-        icon: css,
+        name: "Hadoop",
+        icon: hadoop,
     },
     {
-        name: "JavaScript",
-        icon: javascript,
+        name: "Spark",
+        icon: spark,
     },
     {
-        name: "React JS",
-        icon: reactjs,
+        name: "Scala",
+        icon: scala,
+    },
+    {
+        name: "NodeJS",
+        icon: nodejs,
     },
     {
         name: "C",
@@ -105,14 +106,6 @@ const technologies = [
     {
         name: "SQL",
         icon: sql,
-    },
-    {
-        name: "Python",
-        icon: python,
-    },
-    {
-        name: "Scikit-learn",
-        icon: sklearn,
     },
     {
         name: "R",
@@ -228,9 +221,117 @@ const experiences = [
 
 const projects = [
     {
+        name: "WineML",
+        description:
+            "Implementation of a complete ML workflow combining data preprocessing, feature encoding, cross-validation, and hyperparameter tuning to classify red and white wine quality.",
+        tags: [
+            {
+                name: "Python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Pandas",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Plotly",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Scikit-Learn",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "Imbalanced-Learn",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Streamlit",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: wineML,
+        source_code_link: "https://github.com/GibrilKharfallah/WineML",
+    },    
+    {
+        name: "MovieLens",
+        description:
+            "Built a scalable Big Data analytics pipeline with Hadoop, Spark, and Hive to process and analyze 25M+ MovieLens records.",
+        tags: [
+            {
+                name: "Hadoop",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "PySpark",
+                color: "green-text-gradient",
+            },
+            {
+                name: "HDFS",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Hive",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: movieLens,
+        source_code_link: "https://github.com/GibrilKharfallah/MoviLens",
+    },
+    {
+        name: "Goalytics",
+        description:
+            "Functional Scala ETL transforming raw football data into structured insights.",
+        tags: [
+            {
+                name: "Scala",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Circe",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Json Parsing",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: goalytics,
+        source_code_link: "https://github.com/GibrilKharfallah/Goalytics",
+    },
+    {
+        name: "PowerFlow",
+        description:
+            "Engineering a full data pipeline and interactive visualization app to analyze France’s electricity exchange balances and cross-border interconnection behavior over two decades.",
+        tags: [
+            {
+                name: "Python",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Pandas",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Plotly",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Scikit-Learn",
+                color: "orange-text-gradient",
+            },
+            {
+                name: "Streamlit",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: powerFlow,
+        source_code_link: "https://github.com/GibrilKharfallah/PowerFlow",
+    },
+    {
         name: "ModelQuest",
         description:
-            "Sales analysis and prediction for an electronic equipment sales chain",
+            "Sales analysis and prediction for an electronic equipment sales chain.",
         tags: [
             {
                 name: "Python",
@@ -259,7 +360,7 @@ const projects = [
     {
         name: "EnerGenius",
         description:
-            "Energy consumption prediction for smart building",
+            "Energy consumption prediction for smart building.",
         tags: [
             {
                 name: "Python",
@@ -292,7 +393,7 @@ const projects = [
     {
         name: "DataZon",
         description:
-            "Data Warehouse design and modeling for an e-commerce platform",
+            "Data Warehouse design and modeling for an e-commerce platform.",
         tags: [
             {
                 name: "SQL Server Management Studio",
@@ -309,7 +410,7 @@ const projects = [
     {
         name: "NeuroMark",
         description:
-            "Creation of a perceptron for image classification",
+            "Creation of a perceptron for image classification.",
         tags: [
             {
                 name: "Python",
@@ -336,9 +437,9 @@ const projects = [
         source_code_link: "https://github.com/GibrilKharfallah/NeuroMark",
     },
     {
-        name: "nJob",
+        name: "SneakVault",
         description:
-            "Development of a job board platform for enhanced job matching and user engagement.",
+            "“Fullstack sneaker marketplace with secure REST & GraphQL APIs, real-time order management, and geolocation-powered recommendations.”",
         tags: [
             {
                 name: "React",
@@ -346,40 +447,23 @@ const projects = [
             },
             {
                 name: "Node.js",
+                color: "purple-text-gradient",
+            },
+            {
+                name: "MongoDB",
                 color: "green-text-gradient",
             },
             {
-                name: "MySQL",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "Sequelize",
+                name: "Apollo Server",
                 color: "orange-text-gradient",
             },
             {
-                name: "Express.js",
+                name: "GraphQL",
                 color: "pink-text-gradient",
             },
         ],
-        image: jobBoard,
-        source_code_link: "https://github.com/GibrilKharfallah/Job-Board",
-    },
-    {
-        name: "Rush Hour",
-        description:
-            "Development of a 2D car racing game for an engaging arcade experience.",
-        tags: [
-            {
-                name: "Java",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "JavaFX",
-                color: "orange-text-gradient",
-            },
-        ],
-        image: rushHour,
-        source_code_link: "https://github.com/GibrilKharfallah/Rush-Hour",
+        image: sneakVault,
+        source_code_link: "https://github.com/GibrilKharfallah/SneakVault",
     },
     {
         name: "You shall not pass",
@@ -450,7 +534,7 @@ const projects = [
     {
         name: "Popeye",
         description:
-            "Design of a containerized voting web app, running on a microservices architecture with Docker and Docker Compose",
+            "Design of a containerized voting web app, running on a microservices architecture with Docker and Docker Compose.",
         tags: [
             {
                 name: "Docker",
