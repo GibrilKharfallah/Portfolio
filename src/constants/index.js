@@ -223,7 +223,7 @@ const projects = [
     {
         name: "WineML",
         description:
-            "Implementation of a complete ML workflow combining data preprocessing, feature encoding, cross-validation, and hyperparameter tuning to classify red and white wine quality.",
+            "End-to-end ML pipeline for wine quality classification (preprocessing, encoding, CV, tuning).",
         tags: [
             {
                 name: "Python",
@@ -256,7 +256,7 @@ const projects = [
     {
         name: "MovieLens",
         description:
-            "Built a scalable Big Data analytics pipeline with Hadoop, Spark, and Hive to process and analyze 25M+ MovieLens records.",
+            "Scalable Big Data pipeline using Hadoop, Spark, and Hive to analyze 25M+ MovieLens records.",
         tags: [
             {
                 name: "Hadoop",
@@ -279,30 +279,9 @@ const projects = [
         source_code_link: "https://github.com/GibrilKharfallah/MoviLens",
     },
     {
-        name: "Goalytics",
-        description:
-            "Functional Scala ETL transforming raw football data into structured insights.",
-        tags: [
-            {
-                name: "Scala",
-                color: "pink-text-gradient",
-            },
-            {
-                name: "Circe",
-                color: "green-text-gradient",
-            },
-            {
-                name: "Json Parsing",
-                color: "orange-text-gradient",
-            },
-        ],
-        image: goalytics,
-        source_code_link: "https://github.com/GibrilKharfallah/Goalytics",
-    },
-    {
         name: "PowerFlow",
         description:
-            "Engineering a full data pipeline and interactive visualization app to analyze France’s electricity exchange balances and cross-border interconnection behavior over two decades.",
+            "Data pipeline + interactive dashboard analyzing 20 years of France's electricity exchange flows.",
         tags: [
             {
                 name: "Python",
@@ -327,6 +306,27 @@ const projects = [
         ],
         image: powerFlow,
         source_code_link: "https://github.com/GibrilKharfallah/PowerFlow",
+    },
+    {
+        name: "Goalytics",
+        description:
+            "Functional Scala ETL transforming raw football data into structured insights.",
+        tags: [
+            {
+                name: "Scala",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Circe",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Json Parsing",
+                color: "orange-text-gradient",
+            },
+        ],
+        image: goalytics,
+        source_code_link: "https://github.com/GibrilKharfallah/Goalytics",
     },
     {
         name: "ModelQuest",
